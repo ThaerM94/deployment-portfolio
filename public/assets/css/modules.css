@@ -57,12 +57,16 @@ h2 {
 }
 
     h2.alt {
-        color: #888;
+        color: white;
+        font-weight: 800;
     }
 
         h2.alt strong {
-            color: #666;
+            color: white;
+            font-weight: 800;
+
         }
+    
 
 h3 {
     font-size: 1.5em;
@@ -70,10 +74,27 @@ h3 {
 
 header {
     margin: 0 0 2em 0;
+    
 }
+
+#main > section.one {
+    position: relative;
+}
+
+#main > section.one #myVideo {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    min-height: 100%;
+    opacity: 0.4;
+} 
 
     header > p {
         margin: 1em 0 0 0;
+        font-weight: 800;
+        color:yellow;
+        
     }
 
 footer {
